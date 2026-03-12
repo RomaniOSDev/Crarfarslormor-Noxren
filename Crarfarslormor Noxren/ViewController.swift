@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Crarfarslormor Noxren
 //
-//  Created by Роман Главацкий on 12.03.2026.
+//  Created by Boranko Ydan on 12.03.2026.
 //
 
 import UIKit
