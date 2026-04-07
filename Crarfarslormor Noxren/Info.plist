@@ -19,5 +19,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>OneSignalAppID</key>
+	<string>a9fce5b2-2321-4a18-b231-d198893e3782</string>
 </dict>
 </plist>
