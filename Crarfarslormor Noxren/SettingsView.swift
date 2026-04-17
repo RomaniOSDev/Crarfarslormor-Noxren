@@ -11,6 +11,7 @@ import UIKit
 
 struct SettingsView: View {
     @EnvironmentObject private var storage: AppStorage
+    @Environment(\.requestReview) private var requestReview
 
     var body: some View {
         ScrollView {
@@ -73,8 +74,8 @@ struct SettingsView: View {
     }
 
     private func rateApp() {
-        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-            SKStoreReviewController.requestReview(in: windowScene)
+        AppRatingFlow.requestRatingFromUserTap {
+            requestReview()
         }
     }
 }

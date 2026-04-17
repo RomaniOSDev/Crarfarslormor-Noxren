@@ -47,6 +47,7 @@
 		746A1E442F8510140076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A1E052F8510140076A047 /* Assets.xcassets */; };
 		746A1E462F8510140076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A1E132F8510140076A047 /* LaunchScreen.storyboard */; };
 		746A1E472F8510140076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A1E152F8510140076A047 /* Main.storyboard */; };
+		746A1E482F8510140076A047 /* AppRatingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A1E492F8510140076A047 /* AppRatingFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		746A1E1C2F8510140076A047 /* TraditionTrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionTrotView.swift; sourceTree = "<group>"; };
 		746A1E1D2F8510140076A047 /* TraditionTrotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionTrotViewModel.swift; sourceTree = "<group>"; };
 		746A1E1E2F8510140076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746A1E492F8510140076A047 /* AppRatingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRatingFlow.swift; sourceTree = "<group>"; };
 		CD1D20608453BD510C116A05 /* Pods_Crarfarslormor_Noxren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crarfarslormor_Noxren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF89F36DF100F864705B556E /* Pods-Crarfarslormor Noxren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crarfarslormor Noxren.release.xcconfig"; path = "Target Support Files/Pods-Crarfarslormor Noxren/Pods-Crarfarslormor Noxren.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +156,7 @@
 				746A1E012F8510140076A047 /* ActivityPlayContainerView.swift */,
 				746A1E022F8510140076A047 /* ActivityResultView.swift */,
 				746A1E032F8510140076A047 /* AppDelegate.swift */,
+				746A1E492F8510140076A047 /* AppRatingFlow.swift */,
 				746A1E042F8510140076A047 /* AppStorage.swift */,
 				746A1E052F8510140076A047 /* Assets.xcassets */,
 				746A1E062F8510140076A047 /* Color+App.swift */,
@@ -316,6 +319,7 @@
 				746A1E2D2F8510140076A047 /* ActivityPlayContainerView.swift in Sources */,
 				746A1E2E2F8510140076A047 /* ActivityResultView.swift in Sources */,
 				746A1E2F2F8510140076A047 /* AppDelegate.swift in Sources */,
+				746A1E482F8510140076A047 /* AppRatingFlow.swift in Sources */,
 				746A1E302F8510140076A047 /* AppStorage.swift in Sources */,
 				746A1E312F8510140076A047 /* Color+App.swift in Sources */,
 				746A1E322F8510140076A047 /* CommonUI.swift in Sources */,
@@ -369,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Crarfarslormor Noxren/Crarfarslormor Noxren.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crarfarslormor Noxren/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crarfarslormor Noxren";
@@ -408,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Crarfarslormor Noxren/Crarfarslormor Noxren.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crarfarslormor Noxren/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crarfarslormor Noxren";
