@@ -74,8 +74,8 @@ struct SettingsView: View {
     }
 
     private func rateApp() {
-        AppRatingFlow.requestRatingFromUserTap {
-            requestReview()
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+        SKStoreReviewController.requestReview(in: windowScene)
         }
     }
 }
