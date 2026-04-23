@@ -373,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Crarfarslormor Noxren/Crarfarslormor Noxren.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crarfarslormor Noxren/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crarfarslormor Noxren";
@@ -412,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Crarfarslormor Noxren/Crarfarslormor Noxren.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crarfarslormor Noxren/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crarfarslormor Noxren";
